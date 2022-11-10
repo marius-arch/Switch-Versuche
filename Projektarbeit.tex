@@ -1,0 +1,68 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[ngerman]{babel}
+\usepackage{tocloft}
+\usepackage{graphicx}
+
+%-------------------------------------------------------------------------------
+% TITLE PAGE
+%---------------------------------------------------------------
+
+\title{ \normalsize \textbf{Projektarbeit}
+    \\2022 / 2023
+    \leavevmode\\ [2.0cm]
+    \hrule
+    \leavevmode\\ [0.5cm]
+    \LARGE \textbf{\uppercase{Versuch Switchkonfiguration}}
+    \leavevmode\\ [1cm] 
+    \hrule
+    \leavevmode\\ [2cm] 
+    \begin{center}
+    \includegraphics[scale=0.6]{bszet-lgo.png}
+    \end{center}
+	\normalsize  \vspace*{4.7\baselineskip}} 
+\date{}
+\author{
+    Bonjov Hima \\
+    Bjarne Doench \\
+    Marius Starke \\ \\
+    Betreut durch: Herr Ränsch}
+
+\cftsetindents{section}{0em}{4em}
+\cftsetindents{subsection}{0em}{4em}
+\cftsetindents{subsubsection}{0em}{4em}
+
+%-------------------------------------------------------------------------------
+% Main Content
+%---------------------------------------------------------------
+
+%change title of tableofcontents
+\addto\captionsngerman{\renewcommand{\contentsname}{Inhalt}}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\newpage
+\setcounter{page}{1}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+All set up and ready to go? Let`s review some baseic concepts.
+
+\subsection{This is a subsection}
+
+Mroe interesting things to say here.
+
+\subsubsection{This is a sub subsection}
+
+It just keeps getting better.
+
+\section{Conclusion}
+
+I`m having fun learning \LaTeX.
+
+\end{document}
