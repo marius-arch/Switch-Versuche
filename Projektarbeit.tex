@@ -1,13 +1,34 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a4paper, 11pt]{article}
+\usepackage[a4paper,left=3cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
 \usepackage{tocloft}
+\usepackage[onehalfspacing]{setspace}
 \usepackage{graphicx}
+\usepackage[headsepline, automark, nouppercase]{scrlayer-scrpage}
+
+%-------------------------------------------------------------------------------
+% Settings
+%---------------------------------------------------------------
+
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\ihead{\headmark}
+\ofoot{\pagemark}
+\renewcommand*{\headfont}{\normalfont}
+\renewcommand*{\sectionmarkformat}{}
+\setlength{\headheight}{14.5pt}
+\relax
+%change title of tableofcontents
+\addto\captionsngerman{\renewcommand{\contentsname}{Inhalt}}
 
 %-------------------------------------------------------------------------------
 % TITLE PAGE
 %---------------------------------------------------------------
 
-\title{ \normalsize \textbf{Projektarbeit}
+\title{ \normalsize \textbf{Dokumentation}
     \\2022 / 2023
     \leavevmode\\ [2.0cm]
     \hrule
@@ -19,7 +40,8 @@
     \begin{center}
     \includegraphics[scale=0.6]{bszet-lgo.png}
     \end{center}
-	\normalsize  \vspace*{4.7\baselineskip}} 
+	\normalsize  \vspace*{4.7\baselineskip}
+    } 
 \date{}
 \author{
     Bonjov Hima \\
@@ -35,34 +57,33 @@
 % Main Content
 %---------------------------------------------------------------
 
-%change title of tableofcontents
-\addto\captionsngerman{\renewcommand{\contentsname}{Inhalt}}
-
 \begin{document}
 
-\maketitle
-\thispagestyle{empty}
+    \maketitle
 
-\newpage
-\setcounter{page}{1}
+    \newpage
+    \setcounter{page}{1}
 
-\tableofcontents
-\newpage
+    \pagenumbering{Roman}
+    \tableofcontents
+    \thispagestyle{scrheadings}
+    \newpage
 
-\section{Introduction}
+    \pagenumbering{arabic}
+    \section{Introduction}
 
-All set up and ready to go? Let`s review some baseic concepts.
+    All set up and ready to go? Let`s review some baseic concepts.
 
-\subsection{This is a subsection}
+    \subsection{This is a subsection}
 
-Mroe interesting things to say here.
+    Mroe interesting things to say here.
 
-\subsubsection{This is a sub subsection}
+    \subsubsection{This is a sub subsection}
 
-It just keeps getting better.
+    It just keeps getting better.
 
-\section{Conclusion}
+    \section{Conclusion}
 
-I`m having fun learning \LaTeX.
+    I`m having fun learning \LaTeX.
 
 \end{document}

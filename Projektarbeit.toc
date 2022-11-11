@@ -1,5 +1,5 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{2}{}%
-\contentsline {subsection}{\numberline {1.1}This is a subsection}{2}{}%
-\contentsline {subsubsection}{\numberline {1.1.1}This is a sub subsection}{2}{}%
-\contentsline {section}{\numberline {2}Conclusion}{2}{}%
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {subsection}{\numberline {1.1}This is a subsection}{1}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}This is a sub subsection}{1}{}%
+\contentsline {section}{\numberline {2}Conclusion}{1}{}%
