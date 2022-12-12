@@ -1,5 +1,10 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{1}{}%
-\contentsline {subsection}{\numberline {1.1}This is a subsection}{1}{}%
-\contentsline {subsubsection}{\numberline {1.1.1}This is a sub subsection}{1}{}%
-\contentsline {section}{\numberline {2}Conclusion}{1}{}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}This is a subsection}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}This is a sub subsection}{1}{subsubsection.1.1.1}%
+\contentsline {section}{\numberline {2}Conclusion}{1}{section.2}%
+\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{2}{section*.2}%
+\contentsline {section}{Literatur}{3}{section*.3}%
+\contentsline {section}{\nonumberline Glossar}{4}{section*.6}%
+\contentsline {section}{\nonumberline Abkürzungsverzeichnis}{5}{section*.8}%
+\contentsline {section}{Abbildungsverzeichnis}{6}{section*.9}%

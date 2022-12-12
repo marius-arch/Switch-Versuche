@@ -1,4 +1,4 @@
-\documentclass[a4paper, 11pt]{article}
+\documentclass[a4paper, 11pt]{scrartcl}
 \usepackage[a4paper,left=3cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
@@ -7,7 +7,10 @@
 \usepackage{tocloft}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{graphicx}
-\usepackage[headsepline, automark, nouppercase]{scrlayer-scrpage}
+\usepackage[backend=bibtex]{biblatex}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage[headsepline, automark, nouppercase, singlespacing=true]{scrlayer-scrpage}
 
 %-------------------------------------------------------------------------------
 % Settings
@@ -23,6 +26,10 @@
 \relax
 %change title of tableofcontents
 \addto\captionsngerman{\renewcommand{\contentsname}{Inhalt}}
+%remove biblatex warnings
+\nocite{*}
+%add bibliography
+\addbibresource{bibliography.bib}
 
 %-------------------------------------------------------------------------------
 % TITLE PAGE
@@ -76,7 +83,7 @@
 
     \subsection{This is a subsection}
 
-    Mroe interesting things to say here.
+    More interesting things to say here. \cite*{testbuch1}
 
     \subsubsection{This is a sub subsection}
 
@@ -85,5 +92,24 @@
     \section{Conclusion}
 
     I`m having fun learning \LaTeX.
+
+    \newpage
+    \addsec{Eidesstattliche Erklärung}
+
+    \newpage
+    \phantomsection
+    \addcontentsline{toc}{section}{Literatur}
+    \printbibliography
+
+    \newpage
+    \addsec{Glossar}
+
+    \newpage
+    \addsec{Abkürzungsverzeichnis}
+
+    \newpage
+    \phantomsection
+    \addcontentsline{toc}{section}{Abbildungsverzeichnis}
+    \listoffigures
 
 \end{document}
