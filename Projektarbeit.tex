@@ -78,50 +78,17 @@
     \newpage
 
     \pagenumbering{arabic}
-    \section{Projektbschreibung}
+    \include{Projektbeschreibung}
 
-    "All set up and ready to go? Let`s review some baseic concepts.
-    More interesting things to say here." \cite*{testbuch1}
-    \newpage
-    \section{Vorbereitung}
-    \subsection{Begriffserklärung}
-    \subsubsection{Switch-Stacking}
-    \subsubsection{Switchkaskadierung}
-    \subsubsection{Spanning-Tree-Verfahren}
-    \subsubsection{Auto-Negoatiation}
-    \subsubsection{AutoUplink(MDI/MDI-X)}
-    \subsubsection{Link Aggregation/ Port Trunking}
-    \subsubsection{Vollduplex-Betrieb}
-    \subsubsection{Mac-Adressenfilter}
-    \newpage
-    \subsection{Netzwerktrennung}
-    \subsubsection{VLAN}
-    \subsubsection{VLAN-Tagging}
-    \newpage
-    \subsection{Übersicht des NETGEAR-Switches}
+    \include{Vorbereitung}
     
-    \newpage
-    \section{Versuchsaufbau}
-    \subsection{Szenario}
-    \subsection{Durchführung}
-    \subsubsection{Funktionsprüfung des Netzwerks}
-    \subsubsection{Unterteilung in Subnetze}
-    \subsubsection{Trennung durch VLAN herstellen}
-    \subsubsection{Datenaustausch realisieren}
-    \subsubsection{Einrichtung Layer2-Switche}
+    \include{Versuchsaufbau}
 
-    \newpage
-    \section{Auswertung}
-    \subsection{Grundlagen Switchkonfiguration}
-    \subsection{Vergleich und Beurteilung}
-    
-    \begin{figure}[ht]
-        \centering
-        \includegraphics[scale=0.6]{bszet-lgo.png}
-        \caption{test}
-    \end{figure}
+    \include{Auswertung}
 
-    %Schlussteil
+%-------------------------------------------------------------------------------
+% Schlussteil
+%---------------------------------------------------------------
     \newpage
     \phantomsection
     \addcontentsline{toc}{section}{Literatur}
@@ -139,6 +106,6 @@
     \addsec{Abkürzungsverzeichnis}
     
     \newpage
-    \addsec{Eidesstattliche Erklärung}
+    \include{EidesstattlicheErklärung}
 
 \end{document}

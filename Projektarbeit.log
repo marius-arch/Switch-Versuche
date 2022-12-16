@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  15 DEC 2022 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  16 DEC 2022 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,7 +605,7 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 67.
 (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (Projektarbeit.aux)
+) (Projektarbeit.aux (Projektbeschreibung.aux) (Vorbereitung.aux) (Versuchsaufbau.aux) (Auswertung.aux) (EidesstattlicheErklärung.aux))
 \openout1 = `Projektarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -760,20 +760,59 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `Projektarbeit.toc'.
 
- [1] [1] [2] [3] [4] [5]
+ [1]
+\openout2 = `Projektbeschreibung.aux'.
+
+ (Projektbeschreibung.tex) [1
+
+]
+\openout2 = `Vorbereitung.aux'.
+
+ (Vorbereitung.tex [2
+
+
+
+] [3] [4] [5] [6] [7] [8] [9] [10] [11]) [12]
+\openout2 = `Versuchsaufbau.aux'.
+
+ (Versuchsaufbau.tex [13
+
+
+
+] [14] [15] [16] [17]) [18]
+\openout2 = `Auswertung.aux'.
+
+ (Auswertung.tex [19
+
+
+
+]
 File: bszet-lgo.png Graphic file (type png)
 <use bszet-lgo.png>
-Package pdftex.def Info: bszet-lgo.png  used on input line 120.
+Package pdftex.def Info: bszet-lgo.png  used on input line 12.
 (pdftex.def)             Requested size: 135.50728pt x 135.50728pt.
- [6]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 128.
+) [20]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 95.
  (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [7] [8] (Projektarbeit.lof)
+) [21
+
+
+] [22] (Projektarbeit.lof)
 \tf@lof=\write6
 \openout6 = `Projektarbeit.lof'.
 
- [9] [10] [11] (Projektarbeit.aux)
+ [23] [24]
+\openout2 = `EidesstattlicheErklärung.aux'.
+
+ (EidesstattlicheErklärung.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 2--109
+
+ []
+
+[25
+
+] (Projektarbeit.aux (Projektbeschreibung.aux) (Vorbereitung.aux) (Versuchsaufbau.aux) (Auswertung.aux) (EidesstattlicheErklärung.aux))
 Package rerunfilecheck Info: File `Projektarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
@@ -781,17 +820,17 @@ Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24162 strings out of 475385
- 477968 string characters out of 2776907
- 1190320 words of memory out of 3000000
- 45213 multiletter control sequences out of 15000+600000
+ 24314 strings out of 475385
+ 483644 string characters out of 2776907
+ 1202514 words of memory out of 3000000
+ 45317 multiletter control sequences out of 15000+600000
  502098 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10734b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Projektarbeit.pdf (13 pages, 96498 bytes).
+Output written on Projektarbeit.pdf (27 pages, 105624 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 321 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 
