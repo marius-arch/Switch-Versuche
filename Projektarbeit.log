@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  16 DEC 2022 09:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  16 DEC 2022 10:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,17 +820,17 @@ Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24314 strings out of 475385
- 483644 string characters out of 2776907
+ 24316 strings out of 475385
+ 483661 string characters out of 2776907
  1202514 words of memory out of 3000000
- 45317 multiletter control sequences out of 15000+600000
+ 45318 multiletter control sequences out of 15000+600000
  502098 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10734b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Projektarbeit.pdf (27 pages, 105624 bytes).
+Output written on Projektarbeit.pdf (27 pages, 106287 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

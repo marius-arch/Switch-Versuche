@@ -29,4 +29,5 @@
 \contentsline {section}{\nonumberline Glossar}{22}{section*.6}%
 \contentsline {section}{Abbildungsverzeichnis}{23}{section*.7}%
 \contentsline {section}{\nonumberline Abkürzungsverzeichnis}{24}{section*.10}%
+\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{25}{section*.12}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
