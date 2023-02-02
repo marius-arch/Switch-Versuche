@@ -17,6 +17,50 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{autoNegation}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CBIC},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{addendum}{abgerufen am 02.02.2023}
+    \field{title}{WOZU DIENT DIE AUTO-NEGOTIATION IN EINEM SFP-TRANSCEIVER?}
+    \verb{url}
+    \verb https://www.gbic-shop.de/blog/de/96-transceiver/318-wozu-dient-die-au
+    \verb to-negotiation-in-einem-sfp-transceiver.html
+    \endverb
+    \field{year}{November 11, 2019}
+  \endentry
+
+  \entry{switchKaskadierung}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={Charlene},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{addendum}{abgerufen am 02.02.2023}
+    \field{title}{Verbindung mehrerer Ethernet-Switches}
+    \verb{url}
+    \verb https://community.fs.com/de/blog/how-to-connect-multiple-ethernet-swi
+    \verb tches.html
+    \endverb
+    \field{year}{August 20, 2020}
+  \endentry
+
   \entry{testbuch1}{book}{}
     \name{author}{1}{}{%
       {{hash=DJ}{%
@@ -37,6 +81,74 @@
     \field{sortinithash}{D}
     \field{title}{Test Title}
     \field{year}{2021}
+  \endentry
+
+  \entry{switchStacking}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{H1}
+    \strng{fullhash}{H1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{addendum}{abgerufen am 02.02.2023}
+    \field{title}{Switch Stacking: Grundlage, Konfiguration und FAQs}
+    \verb{url}
+    \verb https://community.fs.com/de/blog/switch-stacking-explained-basis-conf
+    \verb iguration-and-fa-qs.html
+    \endverb
+    \field{year}{April 01, 2022}
+  \endentry
+
+  \entry{spanningTree}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={NetworkAcademy.io},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{addendum}{abgerufen am 02.02.2023}
+    \field{title}{Verbindung mehrerer Ethernet-Switches}
+    \verb{url}
+    \verb https://community.fs.com/de/blog/how-to-connect-multiple-ethernet-swi
+    \verb tches.html
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{autoUplink}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ST}{%
+         family={Schneider},
+         familyi={S\bibinitperiod},
+         given={Telefonbau},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ST1}
+    \strng{fullhash}{ST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{addendum}{abgerufen am 02.02.2023}
+    \field{title}{Begriffe aus der ITK-Technik kurz erklärt}
+    \verb{url}
+    \verb https://www.telefonbau-schneider.de/de/glossar/A/auto-uplink/?cHash=f
+    \verb 74ae4c0659ddd0076bb73d1ab9b5d03
+    \endverb
+    \field{year}{n.A.}
   \endentry
 
   \entry{bildtest}{misc}{}

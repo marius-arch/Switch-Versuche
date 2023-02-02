@@ -5,17 +5,62 @@
 
         \subsubsection{Switch-Stacking}
 
-        \newpage
+        Switch-Stacking ist ein wichtiges Merkmal von Netzwerk-Switches.
+        Diese Switches können miteinander verbunden werden, um als 
+        logische Einheit zu fungieren. Durch das Zusammenschalten weiterer Switche, wird die Netzwerkkapazität 
+        dank der höheren Anzahl verfügbarer Ports, besserer Ausfallsicherheit und der Möglichkeit 
+        Link-Aggregation zu betreiben, erheblich erhöht. 
+        Switch-Stacking wird nur von stapelbaren Switches unterstützt. \\\\
+        Switches in einem Stack können mittels DAC-Kabeln, optischen Transceiver oder Stacking-Kabeln verbunden werden. 
+        Es gibt einen Stack-Master, der das Zentrum des Stack-Systems ist und die Konfigurationsdaten verwaltet. 
+        Die anderen Switches im Stack werden als Stack-Slaves bezeichnet. 
+        Der Stack-Master kann von Benutzern verwaltet werden, und falls er ausfällt, wird ein neuer Master-Switch unter den Slaves ausgewählt.\\\\
+        Zusammenfassend lassen sich folgende Vorteile von Switch-Stacking erschließen:
+        \begin{itemize}
+            \item Verbesserung der Zuverlässigkeit und Flexibilität des Netzwerkes
+            \item Erhöhung der Bandbreite und Vereinfachung der Vernetzung
+            \item hohe Skalierbarkeit des Netzwerkes
+        \end{itemize}
+
         \subsubsection{Switchkaskadierung}
 
-        \newpage
+        Kaskadierung ist die traditionelle Methode zum Verbinden mehrerer Ethernet-Switches 
+        und umfasst verschiedene Methoden für unterschiedliche Netzwerktopologien.\\
+        Durch die Verknüpfung mehrerer Switches können Benutzer mehrere Ports haben, 
+        die jeden Switch miteinander verbinden, unabhängig voneinander konfiguriert 
+        und als Gruppe verwaltet werden können. 
+        In einem Kaskaden-Switch-Netzwerk sind Daisy-Chain-Topologie und 
+        Sterntopologie zwei gängige Methoden. 
+
         \subsubsection{Spanning-Tree-Verfahren}
 
-        \newpage
+        Der Spanning-Tree-Algorithmus führt eine Reihe von Schritten aus, 
+        um sicherzustellen, dass die Topologie schleifenfrei ist und das Ethernet ordnungsgemäß funktioniert:\\
+        \begin{enumerate}
+            \item Root-Bridge-Auswahl – Zuerst wählt STP eine Root-Bridge aus. Dies ist der wichtigste Schalter in der Topologie. Es ist die Wurzel des azyklischen Baums.
+            \item Schleifentopologie-Erkennung – Sobald die Root-Bridge ausgewählt ist, beginnt sie mit dem Senden von Spanning-Tree-Nachrichten (BPDUs). Der Switch verwendet diese Nachrichten, um den Teil der Topologie zu finden, der die Schleife enthält.
+            \item Bestimmen der Port-Rollen – Nach dem Bestimmen des Loop-Teils der Topologie platziert jeder Switch so viele Switch-Ports wie nötig, um sicherzustellen, dass die Topologie schleifenfrei ist.
+            \item Dropout – Switches tauschen weiterhin Nachrichten aus, um die Verfügbarkeit von Links und Nachbarkontakten zu verfolgen. Wenn die Verbindung oder der Switch ausfällt, führt der Switch die Schritte 2 und 3 erneut aus, um sicherzustellen, dass die neue Topologie schleifenfrei ist.
+        \end{enumerate}
+
         \subsubsection{Auto-Negoatiation}
 
-        \newpage
+        Auto-Negotiation ist eine Funktion, die es zwei Netzwerken mit unterschiedlichen Geschwindigkeiten
+        ermöglicht, zu kommunizieren und sich an eine Geschwindigkeit anpasst, 
+        die für beide Netzwerke geeignet ist. 
+        Beispielsweise verfügt ein Switch über einen 1-Gbit/s-Port (Gigabit-Ethernet), 
+        der mit einem 100-Mbit/s-Port (Fast Ethernet) an einem anderen Switch verbunden ist. 
+        Die Portgeschwindigkeiten an beiden Enden müssen gleich sein, um eine Verbindung herzustellen. 
+        Das Autonegotiation-Protokoll teilt Baudrate, Duplexmodusstatus und Flusssteuerungsinformationen zwischen zwei Ports. 
+        Sobald der Port die obigen Parameterinformationen empfangen hat, 
+        passt er seinen Pegel entsprechend den Fähigkeiten des Peer-Ports an.
+
         \subsubsection{AutoUplink(MDI/MDI-X)}
+
+        Ein Ethernet-Netzwerkport (z. B. an einem Switch) verwendet die automatische Uplink-Funktion, um zu erkennen, 
+        an welchen Switch er senden und empfangen (MDI/MDIX) soll. 
+        Mit der automatischen Uplink-Funktion können sowohl Crossover-Kabel 
+        als auch 1:1-Netzwerkkabel verwendet werden.
 
         \newpage
         \subsubsection{Link Aggregation/ Port Trunking}

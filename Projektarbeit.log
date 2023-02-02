@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  16 DEC 2022 10:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  2 FEB 2023 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -572,6 +572,13 @@ File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the K
 \c@caption@flags=\count410
 \c@continuedfloat=\count411
 Package caption Info: hyperref package is loaded.
+) (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count412
+\float@exts=\toks21
+\float@box=\box54
+\@float@everytoks=\toks22
+\@floatcapt=\box55
 ) (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2022/10/12 v3.38 KOMA-Script package (end user interface for scrlayer)
  (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.sty
@@ -602,30 +609,30 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 67.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 68.
 (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (Projektarbeit.aux (Projektbeschreibung.aux) (Vorbereitung.aux) (Versuchsaufbau.aux) (Auswertung.aux) (EidesstattlicheErklärung.aux))
 \openout1 = `Projektarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -663,17 +670,17 @@ LaTeX Font Info:    ... okay on input line 67.
 
 (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count412
+\scratchcounter=\count413
 \scratchdimen=\dimen164
-\scratchbox=\box54
-\nofMPsegments=\count413
-\nofMParguments=\count414
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count415
+\scratchbox=\box56
+\nofMPsegments=\count414
+\nofMParguments=\count415
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count416
 \MPscratchDim=\dimen165
-\MPnumerator=\count416
-\makeMPintoPDFobject=\count417
-\everyMPtoPDFconversion=\toks22
+\MPnumerator=\count417
+\makeMPintoPDFobject=\count418
+\everyMPtoPDFconversion=\toks24
 ) (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
@@ -711,9 +718,9 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Projektarbeit.bbl' found.
  (Projektarbeit.bbl)
-Package biblatex Info: Reference section=0 on input line 67.
-Package biblatex Info: Reference segment=0 on input line 67.
-Package hyperref Info: Link coloring OFF on input line 67.
+Package biblatex Info: Reference section=0 on input line 68.
+Package biblatex Info: Reference segment=0 on input line 68.
+Package hyperref Info: Link coloring OFF on input line 68.
  (Projektarbeit.out) (Projektarbeit.out)
 \@outlinefile=\write4
 \openout4 = `Projektarbeit.out'.
@@ -725,34 +732,35 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 67.
+(scrartcl)           before \begin{document} on input line 68.
  (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count418
+\BKM@id=\count419
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 71.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 72.
  (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 <bszet-lgo.png, id=3, 225.84375pt x 225.84375pt>
 File: bszet-lgo.png Graphic file (type png)
 <use bszet-lgo.png>
-Package pdftex.def Info: bszet-lgo.png  used on input line 71.
+Package pdftex.def Info: bszet-lgo.png  used on input line 72.
 (pdftex.def)             Requested size: 135.50728pt x 135.50728pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 71.
+(Font)              <14.4> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 71.
+(Font)              <7> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 72.
+(Font)              <10.95> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 72.
+(Font)              <8> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 72.
+(Font)              <6> on input line 73.
  [1
 
 
@@ -768,21 +776,44 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 \openout2 = `Vorbereitung.aux'.
 
- (Vorbereitung.tex [2
+ (Vorbereitung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--19
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 20.
+(C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Overfull \hbox (0.62483pt too wide) in paragraph at lines 43--44
+\T1/ptm/m/n/10.95 Nach-bar-kon-tak-ten zu ver-fol-gen. Wenn die Ver-bin-dung oder der Switch aus-f�llt, f�hrt der Switch
+ []
+
+[2
 
 
 
-] [3] [4] [5] [6] [7] [8] [9] [10] [11]) [12]
+] [3] [4] [5] [6] [7] [8]) [9]
 \openout2 = `Versuchsaufbau.aux'.
 
- (Versuchsaufbau.tex [13
+ (Versuchsaufbau.tex [10
 
 
 
-] [14] [15] [16] [17]) [18]
+] [11] [12] [13] [14]) [15]
 \openout2 = `Auswertung.aux'.
 
- (Auswertung.tex [19
+ (Auswertung.tex [16
 
 
 
@@ -791,26 +822,41 @@ File: bszet-lgo.png Graphic file (type png)
 <use bszet-lgo.png>
 Package pdftex.def Info: bszet-lgo.png  used on input line 12.
 (pdftex.def)             Requested size: 135.50728pt x 135.50728pt.
-) [20]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 95.
+) [17]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 96.
  (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [21
+)
+Overfull \hbox (24.71013pt too wide) in paragraph at lines 97--97
+[]\T1/ptm/m/n/10.95 Charlene. \T1/ptm/m/it/10.95 Ver-bin-dung meh-re-rer Ethernet-Switches\T1/ptm/m/n/10.95 . Au-gust 20, 2020. \T1/ptm/m/sc/10.95 url\T1/ptm/m/n/10.95 : []$\T1/pcr/m/n/10.95 https : / / community .
+ []
 
 
-] [22] (Projektarbeit.lof)
+Overfull \hbox (26.40546pt too wide) in paragraph at lines 97--97
+[]\T1/ptm/m/n/10.95 NetworkAcademy.io. \T1/ptm/m/it/10.95 Ver-bin-dung meh-re-rer Ethernet-Switches\T1/ptm/m/n/10.95 . 2021. \T1/ptm/m/sc/10.95 url\T1/ptm/m/n/10.95 : []$\T1/pcr/m/n/10.95 https : / / community .
+ []
+
+
+Overfull \hbox (164.59666pt too wide) in paragraph at lines 97--97
+\T1/pcr/m/n/10.95 telefonbau -[] schneider . de / de / glossar / A / auto -[] uplink / ?cHash = f74ae4c0659ddd0076bb73d1ab9b5d03$[]\T1/ptm/m/n/10.95 .
+ []
+
+[18
+
+
+] [19] (Projektarbeit.lof)
 \tf@lof=\write6
 \openout6 = `Projektarbeit.lof'.
 
- [23] [24]
+ [20] [21]
 \openout2 = `EidesstattlicheErklärung.aux'.
 
  (EidesstattlicheErklärung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--109
+Underfull \hbox (badness 10000) in paragraph at lines 2--110
 
  []
 
-[25
+[22
 
 ] (Projektarbeit.aux (Projektbeschreibung.aux) (Vorbereitung.aux) (Versuchsaufbau.aux) (Auswertung.aux) (EidesstattlicheErklärung.aux))
 Package rerunfilecheck Info: File `Projektarbeit.out' has not changed.
@@ -820,17 +866,17 @@ Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24316 strings out of 475385
- 483661 string characters out of 2776907
- 1202514 words of memory out of 3000000
- 45318 multiletter control sequences out of 15000+600000
- 502098 words of font info for 61 fonts, out of 8000000 for 9000
+ 24429 strings out of 475385
+ 486174 string characters out of 2776907
+ 1204046 words of memory out of 3000000
+ 45416 multiletter control sequences out of 15000+600000
+ 502412 words of font info for 62 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10734b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Projektarbeit.pdf (27 pages, 106287 bytes).
+Output written on Projektarbeit.pdf (24 pages, 127084 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
  254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
