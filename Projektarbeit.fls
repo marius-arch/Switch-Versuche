@@ -956,6 +956,16 @@ INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.
 INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT .\images\VLAN.png
+INPUT .\images\VLAN.png
+INPUT images\VLAN.png
+INPUT .\images\VLAN.png
+INPUT .\images\VLAN.png
+INPUT .\images\VLAN.png
+INPUT .\images\VLAN.png
+INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\Versuchsaufbau.tex
 INPUT .\Versuchsaufbau.tex
 INPUT .\Versuchsaufbau.tex
@@ -1032,6 +1042,8 @@ INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8
 INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
+INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\maris\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

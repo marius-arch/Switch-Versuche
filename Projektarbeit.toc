@@ -7,27 +7,29 @@
 \contentsline {subsubsection}{\numberline {2.1.3}Spanning-Tree-Verfahren}{2}{subsubsection.2.1.3}%
 \contentsline {subsubsection}{\numberline {2.1.4}Auto-Negoatiation}{3}{subsubsection.2.1.4}%
 \contentsline {subsubsection}{\numberline {2.1.5}AutoUplink(MDI/MDI-X)}{3}{subsubsection.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.6}Link Aggregation/ Port Trunking}{4}{subsubsection.2.1.6}%
-\contentsline {subsubsection}{\numberline {2.1.7}Vollduplex-Betrieb}{5}{subsubsection.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.1.8}Mac-Adressenfilter}{6}{subsubsection.2.1.8}%
-\contentsline {subsection}{\numberline {2.2}Netzwerktrennung}{7}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}VLAN}{7}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}VLAN-Tagging}{8}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Übersicht des NETGEAR-Switches}{9}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Versuchsaufbau}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Szenario}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Durchführung}{11}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Funktionsprüfung des Netzwerks}{11}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Unterteilung in Subnetze}{12}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Trennung durch VLAN herstellen}{13}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Datenaustausch realisieren}{14}{subsubsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.5}Einrichtung Layer2-Switche}{15}{subsubsection.3.2.5}%
-\contentsline {section}{\numberline {4}Auswertung}{16}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Grundlagen Switchkonfiguration}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Vergleich und Beurteilung}{17}{subsection.4.2}%
-\contentsline {section}{Literatur}{18}{section*.4}%
-\contentsline {section}{\nonumberline Glossar}{19}{section*.7}%
-\contentsline {section}{Abbildungsverzeichnis}{20}{section*.8}%
-\contentsline {section}{\nonumberline Abkürzungsverzeichnis}{21}{section*.11}%
-\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{22}{section*.13}%
+\contentsline {subsubsection}{\numberline {2.1.6}Link Aggregation/ Port Trunking}{3}{subsubsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.7}Vollduplex-Betrieb}{3}{subsubsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.8}Mac-Adressenfilter}{4}{subsubsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.2}Netzwerktrennung}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}VLAN}{5}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Vorteile von VLAN}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}VLAN-fähige Switches sind der Schlüssel}{6}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}VLAN-Tagging}{6}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.5}Übersicht des NETGEAR-Switches}{7}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Versuchsaufbau}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Szenario}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Durchführung}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Funktionsprüfung des Netzwerks}{9}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Unterteilung in Subnetze}{9}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Trennung durch VLAN herstellen}{10}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Datenaustausch realisieren}{11}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Einrichtung Layer2-Switche}{12}{subsubsection.3.2.5}%
+\contentsline {section}{\numberline {4}Auswertung}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Grundlagen Switchkonfiguration}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Vergleich und Beurteilung}{14}{subsection.4.2}%
+\contentsline {section}{Literatur}{15}{section*.5}%
+\contentsline {section}{\nonumberline Glossar}{16}{section*.8}%
+\contentsline {section}{Abbildungsverzeichnis}{17}{section*.9}%
+\contentsline {section}{\nonumberline Abkürzungsverzeichnis}{18}{section*.12}%
+\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{19}{section*.14}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

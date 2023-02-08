@@ -17,6 +17,51 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{vollDuplex}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Academic},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{addendum}{abgerufen am 08.02.2023}
+    \field{title}{Vollduplex-Betrieb}
+    \verb{url}
+    \verb https://de-academic.com/dic.nsf/dewiki/1473113
+    \endverb
+    \field{year}{Februar 1987}
+  \endentry
+
+  \entry{vlan}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BEDBI}{%
+         family={BSZ ET\bibnamedelima DD},
+         familyi={B\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+         given={BS-IT},
+         giveni={B\bibinithyphendelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BEDBI1}
+    \strng{fullhash}{BEDBI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{addendum}{abgerufen am 08.02.2023}
+    \field{title}{VLAN}
+    \verb{url}
+    \verb http://docs.hp.com/en/5992-0538/ar01s01.html
+    \endverb
+    \field{year}{06.12.2008}
+  \endentry
+
   \entry{autoNegation}{misc}{}
     \name{author}{1}{}{%
       {{hash=C}{%
@@ -31,7 +76,7 @@
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{addendum}{abgerufen am 02.02.2023}
-    \field{title}{WOZU DIENT DIE AUTO-NEGOTIATION IN EINEM SFP-TRANSCEIVER?}
+    \field{title}{Wozu dient die Auto-Negotiation in einem SFP-Transceiver?}
     \verb{url}
     \verb https://www.gbic-shop.de/blog/de/96-transceiver/318-wozu-dient-die-au
     \verb to-negotiation-in-einem-sfp-transceiver.html
@@ -59,6 +104,61 @@
     \verb tches.html
     \endverb
     \field{year}{August 20, 2020}
+  \endentry
+
+  \entry{trunkLeitung}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=uDIFADDIFSL}{%
+         prefix={und},
+         prefixi={u\bibinitperiod},
+         family={Dipl.-Ing. (FH) Andreas\bibnamedelima Donner},
+         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={Dipl.-Ing. (FH) Stefan\bibnamedelima Luber},
+         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DIFADDIFSLu1}
+    \strng{fullhash}{DIFADDIFSLu1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{addendum}{abgerufen am 08.02.2023}
+    \field{title}{Was ist eine Trunk-Leitung?}
+    \verb{url}
+    \verb https://www.ip-insider.de/was-ist-eine-trunk-leitung-a-941266/
+    \endverb
+    \field{year}{23.06.2020}
+  \endentry
+
+  \entry{linkAggregation}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=uDIFADDIFSL}{%
+         prefix={und},
+         prefixi={u\bibinitperiod},
+         family={Dipl.-Ing. (FH) Andreas\bibnamedelima Donner},
+         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={Dipl.-Ing. (FH) Stefan\bibnamedelima Luber},
+         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DIFADDIFSLu1}
+    \strng{fullhash}{DIFADDIFSLu1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{addendum}{abgerufen am 08.02.2023}
+    \field{title}{Was ist Link Aggregation (802.1AX; früher 802.3ad)?}
+    \verb{url}
+    \verb https://www.ip-insider.de/was-ist-link-aggregation-8021ax-frueher-802
+    \verb 3ad-a-886319/
+    \endverb
+    \field{year}{06.12.2019}
   \endentry
 
   \entry{testbuch1}{book}{}
@@ -103,6 +203,27 @@
     \verb iguration-and-fa-qs.html
     \endverb
     \field{year}{April 01, 2022}
+  \endentry
+
+  \entry{portTrunking}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=IA}{%
+         family={IT-Administrator},
+         familyi={I\bibinithyphendelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IA1}
+    \strng{fullhash}{IA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{addendum}{abgerufen am 08.02.2023}
+    \field{title}{Port Trunking}
+    \verb{url}
+    \verb https://www.it-administrator.de/lexikon/port_trunking.html
+    \endverb
+    \field{year}{n.A.}
   \endentry
 
   \entry{spanningTree}{misc}{}
@@ -158,8 +279,8 @@
          familyi={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{W}
@@ -170,6 +291,27 @@
     \verb https://test.de
     \endverb
     \field{year}{2013}
+  \endentry
+
+  \entry{macAdressenFilter}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{addendum}{abgerufen am 08.02.2023}
+    \field{title}{MAC-Filter}
+    \verb{url}
+    \verb https://de.wikipedia.org/wiki/MAC-Filter
+    \endverb
+    \field{year}{23.09.2022}
   \endentry
 \enddatalist
 \endinput
