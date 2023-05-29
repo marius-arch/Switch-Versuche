@@ -42,8 +42,7 @@
     \name{author}{1}{}{%
       {{hash=BEDBI}{%
          family={BSZ ET\bibnamedelima DD},
-         familyi={B\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  D\bibinitperiod},
+         familyi={B\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim D\bibinitperiod},
          given={BS-IT},
          giveni={B\bibinithyphendelim I\bibinitperiod},
       }}%
@@ -112,11 +111,9 @@
          prefix={und},
          prefixi={u\bibinitperiod},
          family={Dipl.-Ing. (FH) Andreas\bibnamedelima Donner},
-         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
-  F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
          given={Dipl.-Ing. (FH) Stefan\bibnamedelima Luber},
-         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
-  F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
+         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
     }
     \strng{namehash}{DIFADDIFSLu1}
@@ -139,11 +136,9 @@
          prefix={und},
          prefixi={u\bibinitperiod},
          family={Dipl.-Ing. (FH) Andreas\bibnamedelima Donner},
-         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
-  F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
          given={Dipl.-Ing. (FH) Stefan\bibnamedelima Luber},
-         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
-  F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
+         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
     }
     \strng{namehash}{DIFADDIFSLu1}
