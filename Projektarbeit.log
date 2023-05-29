@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  8 FEB 2023 14:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  29 MAR 2023 14:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -803,33 +803,54 @@ Overfull \hbox (0.62483pt too wide) in paragraph at lines 43--44
 
 
 
-] [3] [4]
-<images/VLAN.png, id=107, 342.516pt x 228.198pt>
+] [3]
+<images/VLAN.png, id=111, 342.516pt x 228.198pt>
 File: images/VLAN.png Graphic file (type png)
 <use images/VLAN.png>
-Package pdftex.def Info: images/VLAN.png  used on input line 116.
+Package pdftex.def Info: images/VLAN.png  used on input line 117.
 (pdftex.def)             Requested size: 342.51517pt x 228.19743pt.
 
-Overfull \hbox (10.54459pt too wide) in paragraph at lines 119--120
+Overfull \hbox (10.54459pt too wide) in paragraph at lines 120--121
 []\T1/ptm/m/n/10.95 Abbildung 1 ver-deut-licht ei-ni-ge we-sent-li-che Un-ter-schie-de zwi-schen her-kömm-li-chen LANs und VLANs. 
  []
 
 
-Overfull \hbox (0.36134pt too wide) in paragraph at lines 122--123
+Overfull \hbox (0.36134pt too wide) in paragraph at lines 123--124
 []\T1/ptm/m/n/10.95 Alle Switch-Ports kön-nen auf der Da-ten-über-tra-gungs-schicht mit-ein-an-der kom-mu-ni-zie-ren, wenn
  []
 
-[5 <./images/VLAN.png>] [6]) [7]
+[4 <./images/VLAN.png>] [5]
+Overfull \hbox (4.49979pt too wide) in paragraph at lines 181--182
+[]\T1/ptm/m/n/10.95 Die ein-fachs-ten die-ser Swit-ches un-ter-stüt-zen port-ba-sier-te VLANs. In ei-nem port-ba-sier-ten VLAN
+ []
+
+
+Overfull \hbox (2.6936pt too wide) in paragraph at lines 182--183
+\T1/ptm/m/n/10.95 keits-re-geln auf der Grund-la-ge des Frame-Inhalts, wie MAC-Adresse, TCP/UDP-Port, IP- Adres-
+ []
+
+[6] [7] [8]
+<images/netgear-switch-1.png, id=142, 457.71pt x 307.64937pt>
+File: images/netgear-switch-1.png Graphic file (type png)
+<use images/netgear-switch-1.png>
+Package pdftex.def Info: images/netgear-switch-1.png  used on input line 210.
+(pdftex.def)             Requested size: 411.9352pt x 276.88187pt.
+<images/netgear-switch-2.png, id=143, 437.13312pt x 221.82875pt>
+File: images/netgear-switch-2.png Graphic file (type png)
+<use images/netgear-switch-2.png>
+Package pdftex.def Info: images/netgear-switch-2.png  used on input line 215.
+(pdftex.def)             Requested size: 393.41617pt x 199.64401pt.
+) [9 <./images/netgear-switch-1.png> <./images/netgear-switch-2.png>]
 \openout2 = `Versuchsaufbau.aux'.
 
- (Versuchsaufbau.tex [8
+ (Versuchsaufbau.tex [10
 
 
 
-] [9] [10] [11]) [12]
+] [11] [12] [13]) [14]
 \openout2 = `Auswertung.aux'.
 
- (Auswertung.tex [13
+ (Auswertung.tex [15
 
 
 
@@ -838,7 +859,7 @@ File: bszet-lgo.png Graphic file (type png)
 <use bszet-lgo.png>
 Package pdftex.def Info: bszet-lgo.png  used on input line 12.
 (pdftex.def)             Requested size: 135.50728pt x 135.50728pt.
-) [14]
+) [16]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 98.
  (C:\Users\maris\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -852,14 +873,14 @@ Overfull \hbox (31.88045pt too wide) in paragraph at lines 99--99
 []\T1/ptm/m/n/10.95 NetworkAcademy.io. \T1/ptm/m/it/10.95 Ver-bin-dung meh-re-rer Ethernet-Switches\T1/ptm/m/n/10.95 . 2021. \T1/ptm/m/sc/10.95 url\T1/ptm/m/n/10.95 : []$\T1/pcr/m/n/10.95 https : / / community .
  []
 
-[15
+[17
 
 
-] [16] (Projektarbeit.lof)
+] [18] (Projektarbeit.lof)
 \tf@lof=\write6
 \openout6 = `Projektarbeit.lof'.
 
- [17] [18]
+ [19] [20]
 \openout2 = `EidesstattlicheErklÃ¤rung.aux'.
 
  (EidesstattlicheErklÃ¤rung.tex)
@@ -867,7 +888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--112
 
  []
 
-[19
+[21
 
 ] (Projektarbeit.aux (Projektbeschreibung.aux) (Vorbereitung.aux) (Versuchsaufbau.aux) (Auswertung.aux) (EidesstattlicheErklÃ¤rung.aux))
 Package rerunfilecheck Info: File `Projektarbeit.out' has not changed.
@@ -877,17 +898,17 @@ Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24477 strings out of 475385
- 487597 string characters out of 2776907
- 1208249 words of memory out of 3000000
- 45454 multiletter control sequences out of 15000+600000
+ 24509 strings out of 475385
+ 488226 string characters out of 2776907
+ 1207250 words of memory out of 3000000
+ 45471 multiletter control sequences out of 15000+600000
  505215 words of font info for 64 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10734b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/maris/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Projektarbeit.pdf (21 pages, 728472 bytes).
+Output written on Projektarbeit.pdf (23 pages, 1213355 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 275 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 317 words of extra memory for PDF output out of 10000 (max. 10000000)
 

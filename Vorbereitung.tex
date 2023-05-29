@@ -78,6 +78,7 @@
         Switches, Telefonanlagen oder anderen Netzwerkkomponenten eingesetzt.
 
         \subsubsection{Vollduplex-Betrieb}
+
         In der Kommunikationstechnik bezeichnet Duplex (Vollduplex), Halbduplex oder Simplex die 
         Richtwirkung des Kommunikationskanals.
         \begin{itemize}
@@ -86,18 +87,18 @@
             \item Vollduplex (DX, manchmal FDX) ist ein synchroner Betrieb. Dadurch können Informationen gleichzeitig in beide Richtungen übertragen werden, z.B. Telefon
         \end{itemize}
 
-        \newpage
         \subsubsection{Mac-Adressenfilter}
+
         Ein MAC-Filter (MAC-Adressfilter) ist ein Netzwerkzugriffsschutz, 
         der nur Geräten mit bestimmten MAC-Adressen den Zugriff auf das Netzwerk 
         ermöglicht. MAC-Filter werden üblicherweise im LAN oder WLAN verwendet und 
         sind als Tabelle im Router (Firewall) hinterlegt. Aus Sicherheitsgründen ist 
         der MAC-Filter jedoch ein schwacher Zugriffsschutz, da er leicht umgangen werden kann.
 
-    \newpage
     \subsection{Netzwerktrennung}
 
         \subsubsection{VLAN}
+
         Die Virtual LAN (VLAN)-Technologie ermöglicht es Netzwerkadministratoren, 
         die logische Netzwerkkonnektivität von der physischen Konnektivität zu trennen. 
         Dieses Konzept unterscheidet sich von einem herkömmlichen LAN insofern, als ein LAN 
@@ -127,7 +128,8 @@
             \end{itemize}
         \end{itemize}
 
-        \subsection{Vorteile von VLAN}
+        \subsubsection{Vorteile von VLAN}
+
         Zu den wichtigsten Vorteilen der Verwendung von VLANs gehören die folgenden:
         \begin{itemize}
             \item Bandbreitenerhalt: Ein gut konzipiertes VLAN trägt dazu bei, den Broadcast- und Multicast-Verkehr auf die Stationen zu beschränken, die den mit diesem VLAN verbundenen Verkehr hören und darauf reagieren. Die Netzwerk- und Computerressourcen von nicht teilnehmenden Stationen werden nicht beeinträchtigt, wodurch die Leistung verbessert wird.
@@ -135,7 +137,58 @@
             \item Verbesserte Sicherheit: Sie können verschiedene Sicherheitsdomänen einrichten, um verschiedene Sicherheitsstufen im Netzwerk bereitzustellen, da das Netzwerkdesign flexibler ist als das von herkömmlichen LANs. Da Frames nur dann an einen Zielport weitergeleitet werden, wenn der Port zum selben VLAN wie der Frame gehört, tragen VLANs dazu bei, die Isolierung des Datenverkehrs zu erzwingen, und bieten so eine zusätzliche Sicherheitsebene im Netzwerk.
         \end{itemize}
 
-        \subsection{VLAN-fähige Switches sind der Schlüssel}
+        \subsubsection{VLAN-fähige Switches sind der Schlüssel}
+
+        Um ein VLAN in Ihrem Netzwerk zu implementieren, müssen Sie VLAN-fähige Switches verwenden. In diesem Abschnitt wird beschrieben, wie sich VLAN-fähige Switches von herkömmlichen Switches unterscheiden.
+        Um zu verstehen, wie die logische Partitionierung einer LAN-Infrastruktur mit Hilfe von VLAN erfolgt, ist es hilfreich, sich an die grundlegende Funktionsweise eines herkömmlichen Switch-LANs zu erinnern. 
+        Ohne auf die Details des Switch-Designs einzugehen, sollten Sie sich die folgenden zwei Regeln für die Funktionsweise eines herkömmlichen LAN-Switches merken:
+
+        \begin{enumerate}
+            \item Wenn der Switch einen Broadcast- oder Multicast-Frame von einem Anschluss empfängt, sendet er den Frame an alle anderen Anschlüsse des Switches.
+            \item Wenn der Switch einen Unicast-Frame empfängt, leitet er ihn nur an den Port weiter, an den er adressiert ist.
+        \end{enumerate}
+
+        Ein VLAN-fähiger Switch ändert die beiden oben genannten Regeln wie folgt:
+
+        \begin{enumerate}
+            \item Wenn der Switch einen Broadcast- oder Multicast-Frame von einem Port empfängt, leitet er den Frame nur an die Ports weiter, die demselben VLAN angehören wie der Frame.
+            \item Wenn ein Switch einen Unicast-Frame empfängt, leitet er ihn nur dann an den Port weiter, an den er adressiert ist, wenn dieser Port zum selben VLAN gehört wie der Frame.
+            \item Eine eindeutige Nummer, die VLAN-ID, identifiziert jedes VLAN2. Es handelt sich um ein 12-Bit-Feld im VLAN-Tag. Sie können theoretisch bis zu 4095 diskrete VLANs in Ihrem Netzwerk haben.
+        \end{enumerate}
+
+        \subsubsection{Zu welchem VLAN gehört ein Frame?}
+
+        Im vorigen Abschnitt wurde festgestellt, dass ein Frame zu einem VLAN gehören kann. Die nächste Frage lautet: Wie wird diese Zuordnung vorgenommen?
+
+        \begin{itemize}
+            \item Ein VLAN-fähiger Switch kann die Zuordnung auf der Grundlage verschiedener Attribute des Rahmens (wie Ethernet- und IP-Header-Inhalt) vornehmen. Zu den Attributen gehören beispielsweise die MAC-Zieladresse, die IP-Adresse, der TCP-Port, das Protokoll der Netzwerkschicht usw.
+            \item Attribute wie "der Switch-Port, an dem der Frame angekommen ist" können ebenfalls verwendet werden. In diesem Fall ordnet der Switch allen Frames, die an einem bestimmten Port ankommen, implizit eine VLAN-ID zu.
+            \item Ein Frame kann explizite VLAN-Informationen in einem Tag enthalten, das dem Ethernet-Header hinzugefügt wird (explizites VLAN-Tagging).
+        \end{itemize}
+
+        \subsubsection{Wie funktioniert ein VLAN-fähiger Switch?}
+
+        Sie können VLAN-fähige Switches so konfigurieren, dass sie Ports zu einer VLAN-Gruppe oder zu Gruppen hinzufügen. Diese Switches führen zwei einfache, zusammenhängende Tabellen:
+
+        \begin{itemize}
+            \item eine Liste der Ports, die zu jedem auf dem Switch aktivierten VLAN gehören
+            \item die Menge der VLANs, die an jedem Port aktiviert sind
+        \end{itemize}
+
+        Es gibt mehrere Varianten von VLAN-fähigen Switches:
+
+        \begin{itemize}
+            \item Die einfachsten dieser Switches unterstützen portbasierte VLANs. In einem portbasierten VLAN bestimmt der Switch-Port, an dem der Frame angekommen ist, die VLAN-Mitgliedschaft des Frames. Diese Switches können nicht mehr als ein VLAN pro Switch-Port unterstützen, es sei denn, sie unterstützen VLAN-Tagging, das in den folgenden Abschnitten erläutert wird. Ein einfaches portbasiertes VLAN, das VLAN-Tagging unterstützt, ist alles, was Sie zur Implementierung eines VLANs in einer HP-UX-Umgebung benötigen.
+            \item Anspruchsvollere Switch-Angebote ermöglichen die Konfiguration von VLAN- Zugehörigkeitsregeln auf der Grundlage des Frame-Inhalts, wie MAC-Adresse, TCP/UDP-Port, IP- Adresse und so weiter. Dies kann die Switch-Leistung beeinträchtigen.
+            \item VLAN-fähige Layer-3-Switches (oder Routing-Switches) übernehmen zusätzlich zur VLAN-Klassifizierung die Funktion der Schicht 3 (z. B. IP-Routing).
+        \end{itemize}
+
+        Im Hinblick auf andere Netzwerkgeräte ist Folgendes zu beachten:
+        \begin{itemize}
+            \item Sie können eine Endstation so konfigurieren, dass sie zu mehr als einem VLAN gehört.
+            \item Geräte mit gemeinsam genutzter Bandbreite, wie z. B. Hubs, können nicht VLAN-kompatibel sein, obwohl sie in eine VLAN-Umgebung eingebunden werden können. Wenn ein Hub in einer VLAN-Umgebung verwendet wird, müssen alle Knoten an diesem Hub zum selben VLAN oder Satz von VLANs gehören, wodurch die Vorteile von VLANs eingeschränkt werden.
+            \item Ein weit verbreiteter Irrglaube ist, dass Switching das Routing im Netzwerk ersetzen kann, weil sich mehrere IP-Subnetze eine einzige Switching-Infrastruktur mit VLANs teilen können. Denken Sie daran, dass VLAN eine reine Data Link Layer (Layer 2) Technologie ist. Sie müssen Router für die Kommunikation zwischen IP-Subnetzen verwenden, auch in einem VLAN. [Wenn Sie einen VLAN-fähigen Layer-3-Switch (Routing-Switch) verwenden (der bereits als eine der verfügbaren Arten von VLAN-fähigen Switches erwähnt wurde), benötigen Sie keinen separaten Router, da die VLAN-fähigen Routing-Switches sowohl die Layer-2- als auch die Layer-3-Funktionen beinhalten.]
+        \end{itemize}
 
         \subsubsection{VLAN-Tagging}
         Wie bereits erwähnt, können Sie die VLAN-Funktionalität durch explizites Frame-Tagging 
@@ -143,6 +196,22 @@
         über VLANs Bescheid wissen, werden als VLAN-bewusst bezeichnet. Netzwerk-Switches und -Endstationen, die VLAN-Tags interpretieren können, werden als VLAN-Tag-fähig bezeichnet. VLAN-Tag-fähige Switches und Endstationen fügen VLAN-Tags zu Standard-Ethernet-Frames hinzu - ein Prozess, der explizites Tagging genannt wird. Beim expliziten Tagging bestimmt die Endstation oder der Switch die VLAN-Zugehörigkeit eines Frames und fügt ein VLAN-Tag in den Frame-Header ein (siehe Abbildung 2), so dass nachgelagerte Link-Partner nur das Tag untersuchen können, um die VLAN-Zugehörigkeit zu bestimmen.
         Das Tagging hat mehrere Vorteile: Die VLAN-Zuordnung muss nur einmal an einer Endstation oder an einem Edge-Switch vorgenommen werden, so dass die nachgeschalteten Switches auf dem gesamten Weg zum Ziel von der Klassifizierung der Frames entlastet werden. Das Tagging an Endstationen ist besonders vorteilhaft, da der Overhead der Rahmenklassifizierung verteilt wird.
 
+        \subsubsection{Normen und Interoperabilität}
+        IEEE 802.1Q spezifiziert die Architektur für VLAN-Tagging - Tag-Format, Tag-Einfügung und Tag-Stripping. Das IEEE 802.1Q-Tag (in Abbildung 2 für einen Ethernet-Frame dargestellt) enthält auch eine Bestimmung für die Prioritätskodierung. Das 3-Bit-Prioritätsfeld im getaggten Frame enthält Prioritätsinformationen. IEEE 802.1p (später in IEEE 802.1D aufgenommen) hat diese Prioritätscodierung standardisiert.
+
+        \subsubsection{VLAN-Trunking}
+        Switches, die nur portbasiertes VLAN implementieren, können nur ein VLAN pro Port unterstützen. Wenn sie jedoch Tag-fähig sind (auch Q-kompatibel genannt), können sie mehrere VLANs pro Port unterstützen - ein nicht getaggtes VLAN und mehrere getaggte VLANs. Wenn ein Frame kein explizites VLAN-Tag hat, wird ihm automatisch die "untagged VLAN ID" oder die "default VLAN ID" zugewiesen. Ein eingehender Frame, der getaggt ist, hat seine VLAN-ID im Frame-Header. Einige Switch-Anbieter bezeichnen die Möglichkeit, mehrere getaggte Frames pro Anschluss zu verarbeiten, als VLAN-Trunking.
 
     \newpage
     \subsection{Übersicht des NETGEAR-Switches}
+
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[scale=0.9]{images/netgear-switch-1.png}
+        \caption{NETGEAR-Switch Vorderansicht}
+    \end{figure}
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[scale=0.9]{images/netgear-switch-2.png}
+        \caption{NETGEAR-Switch Rückansicht}
+    \end{figure}
