@@ -75,15 +75,14 @@
         \newpage
         \subsubsection{Trennung durch VLAN herstellen}
         Im folgenden Screenshot ist unser Netzwerkplan dokumentiert, welcher als Grundlage für
-        den Versuchsaufbau der Netzwertrennung durch VLANs fungiert. Dieser Netzwerkplan wird auch
-        in den nächsten 2 Abschnitten genutzt.
+        den Versuchsaufbau der Netzwertrennung durch VLANs fungiert.
         \begin{figure}[H]
             \centering
             \includegraphics[width=\linewidth]{images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png}
             \caption{Netzwerkplan portbasiertes VLAN}
         \end{figure}
         Um die Trennung durch VLANs zu realisieren haben wir als erstes ein portbasiertes VLAN eingerichtet, welches wir
-        anschließend auf PVID erweitert haben.
+        in den weiteren Aufgaben auf PVID erweitert haben.
         \begin{figure}[H]
         \centering
             \begin{subfigure}{\linewidth}
@@ -137,6 +136,57 @@
 
         \newpage
         \subsubsection{VLAN übergreifenden Server integrieren}
+        Um einen VLAN-übergreifenden Server zu integrieren, ist es erforderlich, ein zusätzliches VLAN einzubeziehen, 
+        das die Verbindung zwischen den VLANs herstellt, jedoch keine direkte Kommunikation ermöglicht. Im folgenden Netzwerkplan 
+        wird mithilfe des Management-Notebooks die Realisierung eines neuen VLANs 12 erreicht, wobei die Mitglieder von VLAN 10 und 11 
+        ebenfalls Teil von VLAN 12 sind.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\linewidth]{images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png}
+            \caption{Netzwerkplan - Integration eines Servers}
+        \end{figure}
+        Der nächste Screenshot dokumentiert die Konfiguration des Switches zur Einrichtung des VLAN 12.
+        Hierbei haben wir von portbasiertem VLAN auf die erweiterte 802.1Q-VLAN-Konfiguration umgestellt.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\linewidth]{images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png}
+            \caption{Switch Konfiguration - Integration eines Servers}
+        \end{figure}
+        \begin{figure}[H]
+        \centering
+            \begin{subfigure}{\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png}
+                \caption{Übersicht der VLAN-Mitgliedschaften}
+            \end{subfigure}
+            \begin{subfigure}{.49\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft1.png}
+                \caption{VLAN01 - Mitgliedschaften}
+            \end{subfigure}
+            \begin{subfigure}{.49\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft2.png}
+                \caption{VLAN10 - Mitgliedschaften}
+            \end{subfigure}
+            \begin{subfigure}{.49\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft3.png}
+                \caption{VLAN11 - Mitgliedschaften}
+            \end{subfigure}
+            \begin{subfigure}{.49\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft4.png}
+                \caption{VLAN12 - Mitgliedschaften}
+            \end{subfigure}
+        \caption{Switch Konfiguration - Integration eines Servers}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\linewidth]{images/VLAN übergreifenden Server integrieren/serverVLAN12_IP11.png}
+            \caption{Zenmap-Scan Server - Integration eines Servers}
+        \end{figure}
 
         \newpage
         \subsubsection{Einrichtung Layer2-Switche}
+        Um eine 
