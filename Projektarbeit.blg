@@ -1,75 +1,78 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Projektarbeit.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: Projektbeschreibung.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: Vorbereitung.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: Versuchsaufbau.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: Auswertung.aux
-I couldn't open auxiliary file EidesstattlicheErklärung.aux
----line 74 of file Projektarbeit.aux
- : \@input{EidesstattlicheErklärung.aux
- :                                      }
-I'm skipping whatever remains of this command
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: EidesstattlicheErklärung.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: Projektarbeit-blx.bib
 Database file #2: bibliography.bib
 Biblatex version: 3.19
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 14 entries,
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 13 entries,
             6399 wiz_defined-function locations,
-            1281 strings with 10848 characters,
-and the built_in function-call counts, 70326 in all, are:
-= -- 5019
-> -- 1132
-< -- 336
-+ -- 1053
-- -- 382
-* -- 5295
-:= -- 6823
+            1277 strings with 10807 characters,
+and the built_in function-call counts, 65821 in all, are:
+= -- 4721
+> -- 1039
+< -- 298
++ -- 948
+- -- 358
+* -- 5043
+:= -- 6432
 add.period$ -- 0
-call.type$ -- 14
-change.case$ -- 132
+call.type$ -- 13
+change.case$ -- 108
 chr.to.int$ -- 42
-cite$ -- 26
-duplicate$ -- 5981
-empty$ -- 7241
-format.name$ -- 624
-if$ -- 15199
+cite$ -- 24
+duplicate$ -- 5438
+empty$ -- 6819
+format.name$ -- 576
+if$ -- 14228
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 30
 missing$ -- 0
-newline$ -- 312
-num.names$ -- 568
-pop$ -- 4336
+newline$ -- 290
+num.names$ -- 510
+pop$ -- 4001
 preamble$ -- 1
-purify$ -- 158
+purify$ -- 132
 quote$ -- 0
-skip$ -- 2186
+skip$ -- 1985
 stack$ -- 0
-substring$ -- 10154
-swap$ -- 1510
-text.length$ -- 341
-text.prefix$ -- 13
+substring$ -- 9765
+swap$ -- 1384
+text.length$ -- 317
+text.prefix$ -- 12
 top$ -- 1
-type$ -- 464
+type$ -- 430
 warning$ -- 0
-while$ -- 651
+while$ -- 598
 width$ -- 0
-write$ -- 299
-(There was 1 error message)
+write$ -- 278

@@ -42,7 +42,8 @@
     \name{author}{1}{}{%
       {{hash=BEDBI}{%
          family={BSZ ET\bibnamedelima DD},
-         familyi={B\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim D\bibinitperiod},
+         familyi={B\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
          given={BS-IT},
          giveni={B\bibinithyphendelim I\bibinitperiod},
       }}%
@@ -111,9 +112,11 @@
          prefix={und},
          prefixi={u\bibinitperiod},
          family={Dipl.-Ing. (FH) Andreas\bibnamedelima Donner},
-         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
          given={Dipl.-Ing. (FH) Stefan\bibnamedelima Luber},
-         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
+         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
     }
     \strng{namehash}{DIFADDIFSLu1}
@@ -136,9 +139,11 @@
          prefix={und},
          prefixi={u\bibinitperiod},
          family={Dipl.-Ing. (FH) Andreas\bibnamedelima Donner},
-         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+         familyi={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
          given={Dipl.-Ing. (FH) Stefan\bibnamedelima Luber},
-         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
+         giveni={D\bibinithyphendelim I\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
     }
     \strng{namehash}{DIFADDIFSLu1}
@@ -154,28 +159,6 @@
     \verb 3ad-a-886319/
     \endverb
     \field{year}{06.12.2019}
-  \endentry
-
-  \entry{testbuch1}{book}{}
-    \name{author}{1}{}{%
-      {{hash=DJ}{%
-         family={Doe},
-         familyi={D\bibinitperiod},
-         given={John},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Test Publisher}%
-    }
-    \strng{namehash}{DJ1}
-    \strng{fullhash}{DJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{title}{Test Title}
-    \field{year}{2021}
   \endentry
 
   \entry{switchStacking}{misc}{}

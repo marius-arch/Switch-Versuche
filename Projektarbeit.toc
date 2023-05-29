@@ -1,5 +1,5 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Projektbschreibung}{1}{section.1}%
+\contentsline {section}{\numberline {1}Projektbeschreibung}{1}{section.1}%
 \contentsline {section}{\numberline {2}Vorbereitung}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Begriffserklärung}{2}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Switch-Stacking}{2}{subsubsection.2.1.1}%
@@ -22,18 +22,18 @@
 \contentsline {subsection}{\numberline {2.3}Übersicht des NETGEAR-Switches}{9}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Versuchsaufbau}{10}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Szenario}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Durchführung}{11}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Funktionsprüfung des Netzwerks}{11}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Unterteilung in Subnetze}{11}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2}Durchführung}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Funktionsprüfung des Netzwerks}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Unterteilung in Subnetze}{10}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Trennung durch VLAN herstellen}{12}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Datenaustausch realisieren}{13}{subsubsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.5}Einrichtung Layer2-Switche}{14}{subsubsection.3.2.5}%
-\contentsline {section}{\numberline {4}Auswertung}{15}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Grundlagen Switchkonfiguration}{15}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Vergleich und Beurteilung}{16}{subsection.4.2}%
-\contentsline {section}{Literatur}{17}{section*.7}%
-\contentsline {section}{\nonumberline Glossar}{18}{section*.10}%
-\contentsline {section}{Abbildungsverzeichnis}{19}{section*.11}%
-\contentsline {section}{\nonumberline Abkürzungsverzeichnis}{20}{section*.14}%
-\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{21}{section*.16}%
+\contentsline {subsubsection}{\numberline {3.2.4}VLAN übergreifenden Server integrieren}{14}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Einrichtung Layer2-Switche}{15}{subsubsection.3.2.5}%
+\contentsline {section}{\numberline {4}Auswertung}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Grundlagen Switchkonfiguration}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Vergleich und Beurteilung}{17}{subsection.4.2}%
+\contentsline {section}{Literatur}{18}{section*.12}%
+\contentsline {section}{\nonumberline Glossar}{19}{section*.15}%
+\contentsline {section}{Abbildungsverzeichnis}{20}{section*.16}%
+\contentsline {section}{\nonumberline Abkürzungsverzeichnis}{21}{section*.19}%
+\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{22}{section*.21}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
