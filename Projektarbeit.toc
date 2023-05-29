@@ -28,12 +28,10 @@
 \contentsline {subsubsection}{\numberline {3.2.3}Trennung durch VLAN herstellen}{12}{subsubsection.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.2.4}VLAN übergreifenden Server integrieren}{14}{subsubsection.3.2.4}%
 \contentsline {subsubsection}{\numberline {3.2.5}Einrichtung Layer2-Switche}{16}{subsubsection.3.2.5}%
-\contentsline {section}{\numberline {4}Auswertung}{17}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Grundlagen Switchkonfiguration}{17}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Vergleich und Beurteilung}{18}{subsection.4.2}%
-\contentsline {section}{Literatur}{19}{section*.16}%
-\contentsline {section}{\nonumberline Glossar}{20}{section*.19}%
-\contentsline {section}{Abbildungsverzeichnis}{21}{section*.20}%
-\contentsline {section}{\nonumberline Abkürzungsverzeichnis}{22}{section*.23}%
-\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{23}{section*.25}%
+\contentsline {section}{\numberline {4}Auswertung}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Grundlagen Switchkonfiguration}{21}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Vergleich und Beurteilung}{21}{subsection.4.2}%
+\contentsline {section}{Literatur}{22}{section*.24}%
+\contentsline {section}{Abbildungsverzeichnis}{23}{section*.26}%
+\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{24}{section*.29}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

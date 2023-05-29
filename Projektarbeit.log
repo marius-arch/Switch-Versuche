@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  29 MAY 2023 13:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  29 MAY 2023 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -778,7 +778,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1]
 \openout2 = `Projektbeschreibung.aux'.
 
- (Projektbeschreibung.tex) [1
+ (Projektbeschreibung.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 3--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--86
+
+ []
+
+[1
 
 ]
 \openout2 = `Vorbereitung.aux'.
@@ -811,7 +821,7 @@ Overfull \hbox (0.62483pt too wide) in paragraph at lines 42--43
 
 
 ] [3]
-<images/VLAN.png, id=109, 342.516pt x 228.198pt>
+<images/VLAN.png, id=105, 342.516pt x 228.198pt>
 File: images/VLAN.png Graphic file (type png)
 <use images/VLAN.png>
 Package pdftex.def Info: images/VLAN.png  used on input line 116.
@@ -837,12 +847,12 @@ Overfull \hbox (2.6936pt too wide) in paragraph at lines 181--182
  []
 
 [6] [7] [8]
-<images/netgear-switch-1.png, id=140, 457.71pt x 307.64937pt>
+<images/netgear-switch-1.png, id=136, 457.71pt x 307.64937pt>
 File: images/netgear-switch-1.png Graphic file (type png)
 <use images/netgear-switch-1.png>
 Package pdftex.def Info: images/netgear-switch-1.png  used on input line 209.
 (pdftex.def)             Requested size: 411.9352pt x 276.88187pt.
-<images/netgear-switch-2.png, id=141, 437.13312pt x 221.82875pt>
+<images/netgear-switch-2.png, id=137, 437.13312pt x 221.82875pt>
 File: images/netgear-switch-2.png Graphic file (type png)
 <use images/netgear-switch-2.png>
 Package pdftex.def Info: images/netgear-switch-2.png  used on input line 214.
@@ -851,17 +861,17 @@ Package pdftex.def Info: images/netgear-switch-2.png  used on input line 214.
 \openout2 = `Versuchsaufbau.aux'.
 
  (Versuchsaufbau.tex
-<images/Unterteilung in Subnetze/Netzwerkplan_Subnetting_new.png, id=150, 670.00313pt x 347.04657pt>
+<images/Unterteilung in Subnetze/Netzwerkplan_Subnetting_new.png, id=146, 670.00313pt x 347.04657pt>
 File: images/Unterteilung in Subnetze/Netzwerkplan_Subnetting_new.png Graphic file (type png)
 <use images/Unterteilung in Subnetze/Netzwerkplan_Subnetting_new.png>
 Package pdftex.def Info: images/Unterteilung in Subnetze/Netzwerkplan_Subnetting_new.png  used on input line 34.
 (pdftex.def)             Requested size: 335.00075pt x 173.52286pt.
-<images/Unterteilung in Subnetze/Scan_Subnetz_1.png, id=151, 261.22594pt x 179.16937pt>
+<images/Unterteilung in Subnetze/Scan_Subnetz_1.png, id=147, 261.22594pt x 179.16937pt>
 File: images/Unterteilung in Subnetze/Scan_Subnetz_1.png Graphic file (type png)
 <use images/Unterteilung in Subnetze/Scan_Subnetz_1.png>
 Package pdftex.def Info: images/Unterteilung in Subnetze/Scan_Subnetz_1.png  used on input line 45.
 (pdftex.def)             Requested size: 182.85689pt x 125.4177pt.
-<images/Unterteilung in Subnetze/Scan_Subnetz_2.png, id=152, 288.3272pt x 201.00093pt>
+<images/Unterteilung in Subnetze/Scan_Subnetz_2.png, id=148, 288.3272pt x 201.00093pt>
 File: images/Unterteilung in Subnetze/Scan_Subnetz_2.png Graphic file (type png)
 <use images/Unterteilung in Subnetze/Scan_Subnetz_2.png>
 Package pdftex.def Info: images/Unterteilung in Subnetze/Scan_Subnetz_2.png  used on input line 50.
@@ -871,54 +881,54 @@ Package pdftex.def Info: images/Unterteilung in Subnetze/Scan_Subnetz_2.png  use
 
 
  <./images/Unterteilung in Subnetze/Netzwerkplan_Subnetting_new.png>]
-<images/Unterteilung in Subnetze/SubnetzPC1_PingPC3.png, id=160, 739.26187pt x 385.44pt>
+<images/Unterteilung in Subnetze/SubnetzPC1_PingPC3.png, id=156, 739.26187pt x 385.44pt>
 File: images/Unterteilung in Subnetze/SubnetzPC1_PingPC3.png Graphic file (type png)
 <use images/Unterteilung in Subnetze/SubnetzPC1_PingPC3.png>
 Package pdftex.def Info: images/Unterteilung in Subnetze/SubnetzPC1_PingPC3.png  used on input line 64.
 (pdftex.def)             Requested size: 369.63002pt x 192.71953pt.
-<images/Unterteilung in Subnetze/SubnetzPC3_PingPC1.png, id=161, 739.26187pt x 389.20406pt>
+<images/Unterteilung in Subnetze/SubnetzPC3_PingPC1.png, id=157, 739.26187pt x 389.20406pt>
 File: images/Unterteilung in Subnetze/SubnetzPC3_PingPC1.png Graphic file (type png)
 <use images/Unterteilung in Subnetze/SubnetzPC3_PingPC1.png>
 Package pdftex.def Info: images/Unterteilung in Subnetze/SubnetzPC3_PingPC1.png  used on input line 69.
 (pdftex.def)             Requested size: 369.63002pt x 194.60155pt.
  [11 <./images/Unterteilung in Subnetze/Scan_Subnetz_1.png> <./images/Unterteilung in Subnetze/Scan_Subnetz_2.png> <./images/Unterteilung in Subnetze/SubnetzPC1_PingPC3.png> <./images/Unterteilung in Subnetze/SubnetzPC3_PingPC1.png>]
-<images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png, id=173, 646.66594pt x 354.57469pt>
+<images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png, id=169, 646.66594pt x 354.57469pt>
 File: images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png Graphic file (type png)
 <use images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png>
 Package pdftex.def Info: images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png  used on input line 81.
 (pdftex.def)             Requested size: 441.01773pt x 241.81635pt.
-<images/Trennung durch VLAN herstellen/VLAN10_Konfiguration.png, id=174, 721.94719pt x 284.56313pt>
+<images/Trennung durch VLAN herstellen/VLAN10_Konfiguration.png, id=170, 721.94719pt x 284.56313pt>
 File: images/Trennung durch VLAN herstellen/VLAN10_Konfiguration.png Graphic file (type png)
 <use images/Trennung durch VLAN herstellen/VLAN10_Konfiguration.png>
 Package pdftex.def Info: images/Trennung durch VLAN herstellen/VLAN10_Konfiguration.png  used on input line 90.
 (pdftex.def)             Requested size: 324.87323pt x 128.05222pt.
-<images/Trennung durch VLAN herstellen/VLAN11_Konfiguration.png, id=175, 715.17188pt x 280.79906pt>
+<images/Trennung durch VLAN herstellen/VLAN11_Konfiguration.png, id=171, 715.17188pt x 280.79906pt>
 File: images/Trennung durch VLAN herstellen/VLAN11_Konfiguration.png Graphic file (type png)
 <use images/Trennung durch VLAN herstellen/VLAN11_Konfiguration.png>
 Package pdftex.def Info: images/Trennung durch VLAN herstellen/VLAN11_Konfiguration.png  used on input line 95.
 (pdftex.def)             Requested size: 321.82437pt x 126.3584pt.
  [12 <./images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png> <./images/Trennung durch VLAN herstellen/VLAN10_Konfiguration.png> <./images/Trennung durch VLAN herstellen/VLAN11_Konfiguration.png>]
-<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn11.png, id=185, 317.68687pt x 216.05719pt>
+<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn11.png, id=181, 317.68687pt x 216.05719pt>
 File: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn11.png Graphic file (type png)
 <use images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn11.png>
 Package pdftex.def Info: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn11.png  used on input line 108.
 (pdftex.def)             Requested size: 198.45662pt x 134.97275pt.
-<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn12.png, id=186, 228.855pt x 189.70876pt>
+<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn12.png, id=182, 228.855pt x 189.70876pt>
 File: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn12.png Graphic file (type png)
 <use images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn12.png>
 Package pdftex.def Info: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn12.png  used on input line 113.
 (pdftex.def)             Requested size: 198.45662pt x 164.51553pt.
-<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn13.jpg, id=187, 1204.5pt x 339.51843pt>
+<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn13.jpg, id=183, 1204.5pt x 339.51843pt>
 File: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn13.jpg Graphic file (type jpg)
 <use images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn13.jpg>
 Package pdftex.def Info: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn13.jpg  used on input line 118.
 (pdftex.def)             Requested size: 441.01773pt x 124.31433pt.
-<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn14.jpg, id=188, 1204.5pt x 328.97906pt>
+<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn14.jpg, id=184, 1204.5pt x 328.97906pt>
 File: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn14.jpg Graphic file (type jpg)
 <use images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn14.jpg>
 Package pdftex.def Info: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn14.jpg  used on input line 123.
 (pdftex.def)             Requested size: 441.01773pt x 120.45535pt.
-<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn15.jpg, id=189, 1203.7472pt x 335.00156pt>
+<images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn15.jpg, id=185, 1203.7472pt x 335.00156pt>
 File: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn15.jpg Graphic file (type jpg)
 <use images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn15.jpg>
 Package pdftex.def Info: images/Trennung durch VLAN herstellen/ErreichbarkeitAnliegendAn15.jpg  used on input line 128.
@@ -928,7 +938,7 @@ File: images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png G
 <use images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png>
 Package pdftex.def Info: images/Trennung durch VLAN herstellen/Netzwerkplan_VLAN._portbasiert.png  used on input line 145.
 (pdftex.def)             Requested size: 441.01773pt x 241.81635pt.
-<images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png, id=197, 663.22781pt x 298.86656pt>
+<images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png, id=193, 663.22781pt x 298.86656pt>
 File: images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png Graphic file (type png)
 <use images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png>
 Package pdftex.def Info: images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png  used on input line 152.
@@ -937,39 +947,118 @@ File: images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.
 <use images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png>
 Package pdftex.def Info: images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png  used on input line 159.
 (pdftex.def)             Requested size: 441.01773pt x 198.73463pt.
-<images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft1.png, id=198, 511.9125pt x 103.88812pt>
+<images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft1.png, id=194, 511.9125pt x 103.88812pt>
 File: images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft1.png Graphic file (type png)
 <use images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft1.png>
 Package pdftex.def Info: images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft1.png  used on input line 164.
 (pdftex.def)             Requested size: 216.1011pt x 43.85622pt.
-<images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft2.png, id=199, 508.14844pt x 106.14656pt>
+<images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft2.png, id=195, 508.14844pt x 106.14656pt>
 File: images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft2.png Graphic file (type png)
 <use images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft2.png>
 Package pdftex.def Info: images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft2.png  used on input line 169.
 (pdftex.def)             Requested size: 216.1011pt x 45.14165pt.
-<images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft3.png, id=200, 510.40688pt x 105.39375pt>
+<images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft3.png, id=196, 510.40688pt x 105.39375pt>
 File: images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft3.png Graphic file (type png)
 <use images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft3.png>
 Package pdftex.def Info: images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft3.png  used on input line 174.
 (pdftex.def)             Requested size: 216.1011pt x 44.62369pt.
-<images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft4.png, id=201, 508.14844pt x 105.39375pt>
+<images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft4.png, id=197, 508.14844pt x 105.39375pt>
 File: images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft4.png Graphic file (type png)
 <use images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft4.png>
 Package pdftex.def Info: images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft4.png  used on input line 179.
 (pdftex.def)             Requested size: 216.1011pt x 44.82149pt.
-<images/VLAN übergreifenden Server integrieren/serverVLAN12_IP11.png, id=202, 1093.83656pt x 742.27313pt>
+<images/VLAN übergreifenden Server integrieren/serverVLAN12_IP11.png, id=198, 1093.83656pt x 742.27313pt>
 File: images/VLAN übergreifenden Server integrieren/serverVLAN12_IP11.png Graphic file (type png)
 <use images/VLAN übergreifenden Server integrieren/serverVLAN12_IP11.png>
 Package pdftex.def Info: images/VLAN übergreifenden Server integrieren/serverVLAN12_IP11.png  used on input line 186.
 (pdftex.def)             Requested size: 441.01773pt x 299.27116pt.
- [14 <./images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png>] [15 <./images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft1.png> <./images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft2.png> <./images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft3.png> <./images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft4.png> <./images/VLAN übergreifenden Server integrieren/serverVLAN12_IP11.png>]) [16]
+ [14 <./images/VLAN übergreifenden Server integrieren/VlanKonfigurationMitServer.png>] [15 <./images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft1.png> <./images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft2.png> <./images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft3.png> <./images/VLAN übergreifenden Server integrieren/VlanMitgliedschaft4.png> <./images/VLAN übergreifenden Server integrieren/serverVLAN12_IP11.png>]
+<images/Einrichtung Layer2-Switche/Netzwerkplan_VLAN_switch_stacking.png, id=217, 698.61pt x 391.4625pt>
+File: images/Einrichtung Layer2-Switche/Netzwerkplan_VLAN_switch_stacking.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/Netzwerkplan_VLAN_switch_stacking.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/Netzwerkplan_VLAN_switch_stacking.png  used on input line 197.
+(pdftex.def)             Requested size: 441.01773pt x 247.12442pt.
+<images/Einrichtung Layer2-Switche/AufbauVersuch.jpg, id=218, 2055.68pt x 1541.76pt>
+File: images/Einrichtung Layer2-Switche/AufbauVersuch.jpg Graphic file (type jpg)
+<use images/Einrichtung Layer2-Switche/AufbauVersuch.jpg>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/AufbauVersuch.jpg  used on input line 203.
+(pdftex.def)             Requested size: 264.61333pt x 198.4597pt.
+<images/Einrichtung Layer2-Switche/Config_Switch1.png, id=219, 728.7225pt x 513.41812pt>
+File: images/Einrichtung Layer2-Switche/Config_Switch1.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/Config_Switch1.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/Config_Switch1.png  used on input line 211.
+(pdftex.def)             Requested size: 216.1011pt x 152.24828pt.
+<images/Einrichtung Layer2-Switche/Config_PortPVID_Switch2.png, id=220, 729.47531pt x 514.17094pt>
+File: images/Einrichtung Layer2-Switche/Config_PortPVID_Switch2.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/Config_PortPVID_Switch2.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/Config_PortPVID_Switch2.png  used on input line 216.
+(pdftex.def)             Requested size: 216.1011pt x 152.3146pt.
+<images/Einrichtung Layer2-Switche/Config_Switch2.png, id=221, 729.47531pt x 517.18219pt>
+File: images/Einrichtung Layer2-Switche/Config_Switch2.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/Config_Switch2.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/Config_Switch2.png  used on input line 221.
+(pdftex.def)             Requested size: 216.1011pt x 153.20663pt.
+<images/Einrichtung Layer2-Switche/Config_PVID_Switch1.png, id=222, 728.7225pt x 512.66531pt>
+File: images/Einrichtung Layer2-Switche/Config_PVID_Switch1.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/Config_PVID_Switch1.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/Config_PVID_Switch1.png  used on input line 226.
+(pdftex.def)             Requested size: 216.1011pt x 152.02504pt.
+ [16 <./images/Einrichtung Layer2-Switche/Netzwerkplan_VLAN_switch_stacking.png> <./images/Einrichtung Layer2-Switche/AufbauVersuch.jpg>]
+<images/Einrichtung Layer2-Switche/Schema_SwitchKonfiguration_Tagged_untagged.png, id=230, 746.79pt x 261.22594pt>
+File: images/Einrichtung Layer2-Switche/Schema_SwitchKonfiguration_Tagged_untagged.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/Schema_SwitchKonfiguration_Tagged_untagged.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/Schema_SwitchKonfiguration_Tagged_untagged.png  used on input line 239.
+(pdftex.def)             Requested size: 441.01773pt x 154.26544pt.
+ [17 <./images/Einrichtung Layer2-Switche/Config_Switch1.png> <./images/Einrichtung Layer2-Switche/Config_PortPVID_Switch2.png> <./images/Einrichtung Layer2-Switche/Config_Switch2.png> <./images/Einrichtung Layer2-Switche/Config_PVID_Switch1.png> <./images/Einrichtung Layer2-Switche/Schema_SwitchKonfiguration_Tagged_untagged.png>]
+<images/Einrichtung Layer2-Switche/ServerVLAN10Client14.png, id=242, 1058.45438pt x 647.41875pt>
+File: images/Einrichtung Layer2-Switche/ServerVLAN10Client14.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/ServerVLAN10Client14.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/ServerVLAN10Client14.png  used on input line 248.
+(pdftex.def)             Requested size: 441.01773pt x 269.75055pt.
+<images/Einrichtung Layer2-Switche/ServerVLAN10Client15.png, id=243, 1142.76938pt x 622.57594pt>
+File: images/Einrichtung Layer2-Switche/ServerVLAN10Client15.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/ServerVLAN10Client15.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/ServerVLAN10Client15.png  used on input line 253.
+(pdftex.def)             Requested size: 441.01773pt x 240.26721pt.
+<images/Einrichtung Layer2-Switche/ServerVLAN10Client16.png, id=244, 1154.81438pt x 678.28406pt>
+File: images/Einrichtung Layer2-Switche/ServerVLAN10Client16.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/ServerVLAN10Client16.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/ServerVLAN10Client16.png  used on input line 262.
+(pdftex.def)             Requested size: 441.01773pt x 259.03398pt.
+<images/Einrichtung Layer2-Switche/ServerVLAN11Client12.png, id=245, 1111.90407pt x 670.75594pt>
+File: images/Einrichtung Layer2-Switche/ServerVLAN11Client12.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/ServerVLAN11Client12.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/ServerVLAN11Client12.png  used on input line 271.
+(pdftex.def)             Requested size: 441.01773pt x 266.04593pt.
+ [18 <./images/Einrichtung Layer2-Switche/ServerVLAN10Client14.png> <./images/Einrichtung Layer2-Switche/ServerVLAN10Client15.png>]
+<images/Einrichtung Layer2-Switche/ServerVLAN11Client13.jpg, id=251, 1606.0pt x 1213.53375pt>
+File: images/Einrichtung Layer2-Switche/ServerVLAN11Client13.jpg Graphic file (type jpg)
+<use images/Einrichtung Layer2-Switche/ServerVLAN11Client13.jpg>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/ServerVLAN11Client13.jpg  used on input line 280.
+(pdftex.def)             Requested size: 441.01773pt x 333.23212pt.
+<images/Einrichtung Layer2-Switche/ServerVLAN11Client17.png, id=252, 1000.48781pt x 593.96906pt>
+File: images/Einrichtung Layer2-Switche/ServerVLAN11Client17.png Graphic file (type png)
+<use images/Einrichtung Layer2-Switche/ServerVLAN11Client17.png>
+Package pdftex.def Info: images/Einrichtung Layer2-Switche/ServerVLAN11Client17.png  used on input line 285.
+(pdftex.def)             Requested size: 441.01773pt x 261.81848pt.
+ [19 <./images/Einrichtung Layer2-Switche/ServerVLAN10Client16.png> <./images/Einrichtung Layer2-Switche/ServerVLAN11Client12.png>]) [20 <./images/Einrichtung Layer2-Switche/ServerVLAN11Client13.jpg> <./images/Einrichtung Layer2-Switche/ServerVLAN11Client17.png>]
 \openout2 = `Auswertung.aux'.
 
- (Auswertung.tex [17
+ (Auswertung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+
+ []
+
+) [21
 
 
 
-]) [18]
+]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 100.
  (C:\Users\Marius\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -983,22 +1072,22 @@ Overfull \hbox (31.88045pt too wide) in paragraph at lines 101--101
 []\T1/ptm/m/n/10.95 NetworkAcademy.io. \T1/ptm/m/it/10.95 Ver-bin-dung meh-re-rer Ethernet-Switches\T1/ptm/m/n/10.95 . 2021. \T1/ptm/m/sc/10.95 url\T1/ptm/m/n/10.95 : []$\T1/pcr/m/n/10.95 https : / / community .
  []
 
-[19
+[22
 
 
-] [20] (Projektarbeit.lof)
+] (Projektarbeit.lof)
 \tf@lof=\write6
 \openout6 = `Projektarbeit.lof'.
 
- [21] [22]
+ [23]
 \openout2 = `EidesstattlicheErklärung.aux'.
 
  (EidesstattlicheErklärung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--114
+Underfull \hbox (badness 10000) in paragraph at lines 2--108
 
  []
 
-[23
+[24
 
 ] (Projektarbeit.aux (Projektbeschreibung.aux) (Vorbereitung.aux) (Versuchsaufbau.aux) (Auswertung.aux) (EidesstattlicheErklärung.aux))
 Package rerunfilecheck Info: File `Projektarbeit.out' has not changed.
@@ -1008,17 +1097,17 @@ Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24797 strings out of 476334
- 499560 string characters out of 5787499
+ 24895 strings out of 476334
+ 505127 string characters out of 5787499
  1869382 words of memory out of 5000000
- 44772 multiletter control sequences out of 15000+600000
+ 44851 multiletter control sequences out of 15000+600000
  550965 words of font info for 70 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10723b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Marius/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Marius/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Marius/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Marius/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Marius/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Marius/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Projektarbeit.pdf (25 pages, 1914900 bytes).
+Output written on Projektarbeit.pdf (26 pages, 2839330 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 412 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 461 words of extra memory for PDF output out of 10000 (max. 10000000)
 

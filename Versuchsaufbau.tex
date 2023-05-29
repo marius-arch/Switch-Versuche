@@ -189,4 +189,104 @@
 
         \newpage
         \subsubsection{Einrichtung Layer2-Switche}
-        Um eine 
+        Da wir sowohl einen weiteren Switch als auch neue Clients zur Integration der neuen Abteilung benötigten, 
+        mussten wir zunächst einen neuen Netzwerkplan erstellen, in welchem die Verbindung mit einem Layer2-Switch ermöglicht wird.
+        Hierbei haben wir den zweiten Switch mittels eines Trunking-Ports nach dem Switch-Stacking Verfahren an den ersten Switch angebunden.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/Netzwerkplan_VLAN_switch_stacking.png}
+            \caption{Netzwerkplan - Layer2-Switche}
+        \end{figure}
+        Unser Versuchsaufbau mit dem hinzugefügten Switch, der über Port1 mit dem ersten Switch verbunden ist, sah wie folgt aus:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\linewidth]{images/Einrichtung Layer2-Switche/AufbauVersuch.jpg}
+            \caption{Versuchsaufbau - Layer2-Switche}
+        \end{figure}
+        Des weiteren mussten wir die Konfiguration der Switche verändern:
+        \begin{figure}[H]
+        \centering
+            \begin{subfigure}{.49\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/Config_Switch1.png}
+                \caption{Mitgliedschaften Switch1}
+            \end{subfigure}
+            \begin{subfigure}{.49\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/Config_PortPVID_Switch2.png}
+                \caption{PVID Switch1}
+            \end{subfigure}
+            \begin{subfigure}{.49\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/Config_Switch2.png}
+                \caption{Mitgliedschaften Switch2}
+            \end{subfigure}
+            \begin{subfigure}{.49\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/Config_PVID_Switch1.png}
+                \caption{PVID Switch2}
+            \end{subfigure}
+        \caption{Switch Konfiguration - Layer2-Switche}
+        \end{figure}
+         
+        Um eine Kommunikation innerhalb der VLANs über mehrere Switches hinweg zu 
+        ermöglichen, werden auf beiden Switches auf Port 1 Datenpakete mit 
+        VLAN-Informationen verschickt, die als getaggte Pakete bezeichnet werden.
+        Nach folgendem Schema habe wir die Portkonfiguration der Switche durchgeführt, 
+        "`T"' steht in diesem Fall für "`Tagged"' und "`U"' für "`Untagged"'.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/Schema_SwitchKonfiguration_Tagged_untagged.png}
+            \caption{Schema Switche - Layer2-Switche}
+        \end{figure}
+        \newpage
+        Im Folgenden wird ersichtlich, dass nur die Clients im jeweiligen VLAN miteinander kommunizieren können:
+        \begin{figure}[H]
+        \centering
+            \begin{subfigure}{\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/ServerVLAN10Client14.png}
+                \caption{Verbindungen Client 14}
+            \end{subfigure}
+            \begin{subfigure}{\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/ServerVLAN10Client15.png}
+                \caption{Verbindungen Client 15}
+            \end{subfigure}
+        \caption{Verbindungen VLAN10 - Layer2-Switche}
+        \end{figure}%
+        \begin{figure}[H]\ContinuedFloat
+        \centering
+            \begin{subfigure}{\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/ServerVLAN10Client16.png}
+                \caption{Verbindungen Client 16}
+            \end{subfigure}
+        \caption{Verbindungen VLAN10 - Layer2-Switche}
+        \end{figure}
+        \begin{figure}[H]
+        \centering
+            \begin{subfigure}{\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/ServerVLAN11Client12.png}
+                \caption{Verbindungen Client 12}
+            \end{subfigure}
+        \caption{Verbindungen VLAN11 - Layer2-Switche}
+        \end{figure}%
+        \begin{figure}[H]\ContinuedFloat
+            \centering
+            \begin{subfigure}{\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/ServerVLAN11Client13.jpg}
+                \caption{Verbindungen Client 13}
+            \end{subfigure}
+            \begin{subfigure}{\linewidth}
+                \centering
+                \includegraphics[width=\linewidth]{images/Einrichtung Layer2-Switche/ServerVLAN11Client17.png}
+                \caption{Verbindungen Client 17}
+            \end{subfigure}
+        \caption{Verbindungen VLAN11 - Layer2-Switche}
+        \end{figure}
+
+
+

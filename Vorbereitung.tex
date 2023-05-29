@@ -167,7 +167,7 @@
 
         \subsubsection{Wie funktioniert ein VLAN-fähiger Switch?}
 
-        Sie können VLAN-fähige Switches so konfigurieren, dass sie Ports zu einer VLAN-Gruppe oder zu Gruppen hinzufügen. Diese Switches führen zwei einfache, zusammenhängende Tabellen:
+       VLAN-fähige Switches können so konfiguriert werden, dass sie Ports zu einer VLAN-Gruppe oder zu Gruppen hinzufügen. Diese Switches führen zwei einfache, zusammenhängende Tabellen:
 
         \begin{itemize}
             \item eine Liste der Ports, die zu jedem auf dem Switch aktivierten VLAN gehören
@@ -184,19 +184,19 @@
 
         Im Hinblick auf andere Netzwerkgeräte ist Folgendes zu beachten:
         \begin{itemize}
-            \item Sie können eine Endstation so konfigurieren, dass sie zu mehr als einem VLAN gehört.
+            \item Eine Endstation kann so konfiguriert werden, dass sie zu mehr als einem VLAN gehört.
             \item Geräte mit gemeinsam genutzter Bandbreite, wie z. B. Hubs, können nicht VLAN-kompatibel sein, obwohl sie in eine VLAN-Umgebung eingebunden werden können. Wenn ein Hub in einer VLAN-Umgebung verwendet wird, müssen alle Knoten an diesem Hub zum selben VLAN oder Satz von VLANs gehören, wodurch die Vorteile von VLANs eingeschränkt werden.
-            \item Ein weit verbreiteter Irrglaube ist, dass Switching das Routing im Netzwerk ersetzen kann, weil sich mehrere IP-Subnetze eine einzige Switching-Infrastruktur mit VLANs teilen können. Denken Sie daran, dass VLAN eine reine Data Link Layer (Layer 2) Technologie ist. Sie müssen Router für die Kommunikation zwischen IP-Subnetzen verwenden, auch in einem VLAN. [Wenn Sie einen VLAN-fähigen Layer-3-Switch (Routing-Switch) verwenden (der bereits als eine der verfügbaren Arten von VLAN-fähigen Switches erwähnt wurde), benötigen Sie keinen separaten Router, da die VLAN-fähigen Routing-Switches sowohl die Layer-2- als auch die Layer-3-Funktionen beinhalten.]
+            \item Ein weit verbreiteter Irrglaube ist, dass Switching das Routing im Netzwerk ersetzen kann, weil sich mehrere IP-Subnetze eine einzige Switching-Infrastruktur mit VLANs teilen können. Denken Sie daran, dass VLAN eine reine Data Link Layer (Layer 2) Technologie ist. Es müssen immer Router für die Kommunikation zwischen IP-Subnetzen verwendet werden, auch in einem VLAN. Wird ein VLAN-fähiger Layer-3-Switch (Routing-Switch) verwendet, benötigt man keinen separaten Router, da die VLAN-fähigen Routing-Switches sowohl die Layer-2- als auch die Layer-3-Funktionen beinhalten.
         \end{itemize}
 
         \subsubsection{VLAN-Tagging}
-        Wie bereits erwähnt, können Sie die VLAN-Funktionalität durch explizites Frame-Tagging 
+        Wie bereits erwähnt, kann man die VLAN-Funktionalität durch explizites Frame-Tagging 
         durch Switches und Endstationen implementieren. Netzwerk-Switches und -Endstationen, die 
         über VLANs Bescheid wissen, werden als VLAN-bewusst bezeichnet. Netzwerk-Switches und -Endstationen, die VLAN-Tags interpretieren können, werden als VLAN-Tag-fähig bezeichnet. VLAN-Tag-fähige Switches und Endstationen fügen VLAN-Tags zu Standard-Ethernet-Frames hinzu - ein Prozess, der explizites Tagging genannt wird. Beim expliziten Tagging bestimmt die Endstation oder der Switch die VLAN-Zugehörigkeit eines Frames und fügt ein VLAN-Tag in den Frame-Header ein (siehe Abbildung 2), so dass nachgelagerte Link-Partner nur das Tag untersuchen können, um die VLAN-Zugehörigkeit zu bestimmen.
         Das Tagging hat mehrere Vorteile: Die VLAN-Zuordnung muss nur einmal an einer Endstation oder an einem Edge-Switch vorgenommen werden, so dass die nachgeschalteten Switches auf dem gesamten Weg zum Ziel von der Klassifizierung der Frames entlastet werden. Das Tagging an Endstationen ist besonders vorteilhaft, da der Overhead der Rahmenklassifizierung verteilt wird.
 
         \subsubsection{Normen und Interoperabilität}
-        IEEE 802.1Q spezifiziert die Architektur für VLAN-Tagging - Tag-Format, Tag-Einfügung und Tag-Stripping. Das IEEE 802.1Q-Tag (in Abbildung 2 für einen Ethernet-Frame dargestellt) enthält auch eine Bestimmung für die Prioritätskodierung. Das 3-Bit-Prioritätsfeld im getaggten Frame enthält Prioritätsinformationen. IEEE 802.1p (später in IEEE 802.1D aufgenommen) hat diese Prioritätscodierung standardisiert.
+        IEEE 802.1Q spezifiziert die Architektur für VLAN-Tagging - Tag-Format, Tag-Einfügung und Tag-Stripping. Das IEEE 802.1Q-Tag enthält auch eine Bestimmung für die Prioritätskodierung. Das 3-Bit-Prioritätsfeld im getaggten Frame enthält Prioritätsinformationen. IEEE 802.1p (später in IEEE 802.1D aufgenommen) hat diese Prioritätscodierung standardisiert.
 
         \subsubsection{VLAN-Trunking}
         Switches, die nur portbasiertes VLAN implementieren, können nur ein VLAN pro Port unterstützen. Wenn sie jedoch Tag-fähig sind (auch Q-kompatibel genannt), können sie mehrere VLANs pro Port unterstützen - ein nicht getaggtes VLAN und mehrere getaggte VLANs. Wenn ein Frame kein explizites VLAN-Tag hat, wird ihm automatisch die "untagged VLAN ID" oder die "default VLAN ID" zugewiesen. Ein eingehender Frame, der getaggt ist, hat seine VLAN-ID im Frame-Header. Einige Switch-Anbieter bezeichnen die Möglichkeit, mehrere getaggte Frames pro Anschluss zu verarbeiten, als VLAN-Trunking.

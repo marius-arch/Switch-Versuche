@@ -4,11 +4,20 @@
 
     \subsection{Grundlagen Switchkonfiguration}
     
-    \newpage
-    \subsection{Vergleich und Beurteilung}
+    Die Switchkonfiguration zur Bildung von VLANs beinhaltet die Einstellungen "`tagged"' (markiert) und "`untagged"' (nicht markiert). 
+    "`Tagged"' wird für Uplink-Ports verwendet, um Datenpakete mit VLAN-Tags zu versehen und die Kommunikation zwischen VLANs über mehrere 
+    Switches hinweg zu ermöglichen. "`Untagged"' wird bei Ports genutzt, die direkt mit Endgeräten verbunden sind und den Datenverkehr innerhalb 
+    eines VLANs ohne VLAN-Tags übertragen. Die richtige Konfiguration dieser Einstellungen ist wichtig, um VLANs effektiv zu nutzen und den Datenverkehr 
+    zu isolieren.
     
-    % \begin{figure}[ht]
-    %     \centering
-    %     \includegraphics[scale=0.6]{bszet-lgo.png}
-    %     \caption{test}
-    % \end{figure}
+    \subsection{Vergleich und Beurteilung}
+    \textbf{Subnetting:}
+    \\Subnetting ist eine Methode zur Aufteilung eines Netzwerks in kleinere Teilnetze. Es basiert auf der Aufteilung des IP-Adressraums und der 
+    Verwendung von Subnetzmasken. Subnetting allein bietet jedoch keine eigentliche Sicherheit oder Zugriffskontrolle zwischen den Teilnetzen. Es ermöglicht lediglich die logische Aufteilung 
+    des Netzwerks in verschiedene Subnetze, um die IP-Kommunikation zu organisieren.
+    \\\\\textbf{VLANs:}
+    \\VLANs ermöglichen die logische Aufteilung eines Netzwerks unabhängig von der physischen Infrastruktur. Durch die Verwendung von VLAN-IDs können Netzwerkgeräte in verschiedene virtuelle 
+    Netzwerke segmentiert werden. VLANs bieten die Möglichkeit, den Datenverkehr zwischen den VLANs zu isolieren und Zugriffssteuerungen anzuwenden.
+    \\\\Zusammenfassend lässt sich sagen, dass VLANs im Vergleich zu Subnetting eine höhere Sicherheit bieten, da sie die Trennung und Steuerung des Datenverkehrs zwischen virtuellen Netzwerken 
+    ermöglichen. Dennoch sollten zusätzliche Sicherheitsmechanismen in Verbindung mit VLANs implementiert werden, um ein robustes Sicherheitsniveau zu gewährleisten.
+
